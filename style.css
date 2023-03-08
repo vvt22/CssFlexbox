@@ -22,17 +22,24 @@ body {
 .box {
   height: 100px;
   min-width: 100px;
+  /*flex-wrap: no need to shrink any more but go on the next line */
+  flex-wrap: wrap;
+  /* wrap-reverse goes on the upper side of element */
 }
-/* if there is available space in container use flex-grow on elements */
+
 .one {
   background-color: red;
   flex-grow: 1;
+  /* if there is available space in container use flex-grow on elements */
+  /* flex-shrink: 2; */
 }
 .two {
   background-color: blue;
   flex-grow: 2;
+  /* flex-shrink: 3;   bigger the no. , more the shrink */
 }
 .three {
   background-color: green;
   flex-grow: 3;
+  /* flex-shrink: 1; */
 }
