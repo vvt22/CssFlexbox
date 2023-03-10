@@ -41,6 +41,7 @@ body {
 .three {
   background-color: green;
   flex-grow: 3;
+  /* flex-direction: row;            determines the direction of element   */
   /* flex-shrink: 1; */
   /* flex-basis: 200px;   similar to minimum width and always in the flexbox(no scroll) */
 }
@@ -51,3 +52,9 @@ body {
 /* flex is shorthand for above */
 /* flex:grow shrink basis */
 /* flex:1    means grow and shrink is 1 while basis is 0  */
+
+/* flex-flow === flex-direction + flex-wrap */
+
+/* justify-content is along main-axis while align-items is along cross-axis*/
+
+/* order determine the orderinf of element  ex:-order:0 or 2 or 1  */
